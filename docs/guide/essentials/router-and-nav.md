@@ -9,26 +9,26 @@ This project router and nav are bound together, so you only have to configure th
 First let us know what configuration items are provided config route.
 
 ```js
-// if set to true, lt will not appear in sidebar nav.
-// e.g. login or 401 page or as some editing pages /edit/1 (Default: false)
-hidden: true
-
-// this route cannot be clicked in breadcrumb navigation when noRedirect is set
-redirect: noRedirect
-
-// when you route a children below the declaration of more than one route,
-// it will automatically become a nested mode - such as the component page
-// when there is only one, the child route will be displayed as the root route
-// if you want to display your root route
-// regardless of the number of children declarations under the route
-// you can set alwaysShow: true
-// so that it will ignore the previously defined rules and always show the root route
-alwaysShow: true
-
 // set router name. It must be set，in order to avoid problems with <keep-alive>.
 name: 'router-name'
 
 meta: {
+  // when you route a children below the declaration of more than one route,
+  // it will automatically become a nested mode - such as the component page
+  // when there is only one, the child route will be displayed as the root route
+  // if you want to display your root route
+  // regardless of the number of children declarations under the route
+  // you can set alwaysShow: true
+  // so that it will ignore the previously defined rules and always show the root route
+  alwaysShow: true
+
+  // if set to true, lt will not appear in sidebar nav.
+  // e.g. login or 401 page or as some editing pages /edit/1 (Default: false)
+  hidden: true
+
+  // this route cannot be clicked in breadcrumb navigation when noRedirect is set
+  redirect: noRedirect
+
   // required roles to navigate to this route. Support multiple permissions stacking.
   // if not set means it doesn't need any permission.
   roles: ['admin', 'editor']
@@ -65,9 +65,11 @@ meta: {
   path: '/permission',
   component: Layout,
   redirect: '/permission/index',
-  hidden: true,
-  alwaysShow: true,
-  meta: { roles: ['admin','editor'] }, // you can set roles in root nav
+  meta: { // you can set roles in root nav
+    hidden: true,
+    alwaysShow: true,
+    roles: ['admin','editor']
+  },
   children: [{
     path: 'index',
     component: _import('permission/index'),

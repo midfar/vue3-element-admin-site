@@ -15,7 +15,7 @@ const map={
 }
 //你存在服务端的map类似于
 const serviceMap=[
- { path: '/login', component: 'login', hidden: true }
+ { path: '/login', component: 'login', meta: { hidden: true } }
 ]
 //之后遍历这个map，动态生成asyncRoutes
 并将 component 替换为 map[component]
