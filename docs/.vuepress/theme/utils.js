@@ -21,27 +21,26 @@ export function isGitee() {
 }
 
 export function loadCarbon() {
-  const id = '_carbonads_js'
-  const existingScript = document.getElementById(id)
-  if (existingScript) return
-  const script = document.createElement('script')
-
-  document.body.appendChild(script)
-  dynamicLoadScript(
-    'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QY&placement=panjiachengithubio',
-    () => {},
-    id
-  )
+  // const id = '_carbonads_js'
+  // const existingScript = document.getElementById(id)
+  // if (existingScript) return
+  // const script = document.createElement('script')
+  // document.body.appendChild(script)
+  // dynamicLoadScript(
+  //   'https://cdn.carbonads.com/carbon.js?serve=CE7IK5QY&placement=panjiachengithubio',
+  //   () => {},
+  //   id
+  // )
 }
 
 export function loadGitter() {
-  const id = 'vue-element-admin/discuss'
-  const existingScript = document.getElementById(id)
-  if (existingScript) return
-  const script = document.createElement('script')
-  script.id = id
-  script.text =
-    "((window.gitter = {}).chat = {}).options = {room: 'vue-element-admin/discuss'};"
-  document.body.appendChild(script)
-  dynamicLoadScript('https://sidecar.gitter.im/dist/sidecar.v1.js')
+  // const id = 'vue-element-admin/discuss'
+  // const existingScript = document.getElementById(id)
+  // if (existingScript) return
+  // const script = document.createElement('script')
+  // script.id = id
+  // script.text =
+  //   "((window.gitter = {}).chat = {}).options = {room: 'vue-element-admin/discuss'};"
+  // document.body.appendChild(script)
+  // dynamicLoadScript('https://sidecar.gitter.im/dist/sidecar.v1.js')
 }
