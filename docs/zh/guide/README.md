@@ -23,7 +23,7 @@ pageClass: getting-started
 - 基础模板: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
 - 桌面终端: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
 - Typescript 版: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (鸣谢: [@Armour](https://github.com/Armour))
-- Others: [awesome-project](https://github.com/midfar/vue3-element-admin/issues/2312)
+- Others: [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
   :::
 
 <br/>
@@ -177,7 +177,7 @@ npm run dev
 ::: tip
 强烈建议不要用直接使用 cnpm 安装，会有各种诡异的 bug，可以通过重新指定 registry 来解决 npm 安装速度慢的问题。若还是不行，可使用 [yarn](https://github.com/yarnpkg/yarn) 替代 `npm`。
 
-Windows 用户若安装不成功，很大概率是`node-sass`安装失败，[解决方案](https://github.com/midfar/vue3-element-admin/issues/24)。
+Windows 用户若安装不成功，很大概率是`node-sass`安装失败，[解决方案](https://github.com/PanJiaChen/vue-element-admin/issues/24)。
 
 另外因为 `node-sass` 是依赖 `python`环境的，如果你之前没有安装和配置过的话，需要自行查看一下相关安装教程。
 :::
@@ -202,7 +202,7 @@ Windows 用户若安装不成功，很大概率是`node-sass`安装失败，[解
 
 有任何修改和建议都可以该项目 pr 和 issue
 
-[vue-element-admin](https://github.com/midfar/vue3-element-admin) 还在持续迭代中，逐步沉淀和总结出更多功能和相应的实现代码，总结中后台产品模板/组件/业务场景的最佳实践。本项目也十分期待你的参与和[反馈](https://github.com/midfar/vue3-element-admin/issues)。
+[vue-element-admin](https://github.com/midfar/vue3-element-admin) 还在持续迭代中，逐步沉淀和总结出更多功能和相应的实现代码，总结中后台产品模板/组件/业务场景的最佳实践。本项目也十分期待你的参与和[反馈](https://github.com/PanJiaChen/vue-element-admin/issues)。
 
 ## 捐赠
 
@@ -220,7 +220,7 @@ Modern browsers and Internet Explorer 10+.
 
 ## 其它
 
-群主 **[圈子](https://jianshiapp.com/circles/1209)** 群主会经常分享一些技术相关的东西，或者加入 [qq 群](https://github.com/midfar/vue3-element-admin/issues/602) 或者关注 [微博](https://weibo.com/u/3423485724?is_all=1)。
+群主 **[圈子](https://jianshiapp.com/circles/1209)** 群主会经常分享一些技术相关的东西，或者加入 [qq 群](https://github.com/PanJiaChen/vue-element-admin/issues/602) 或者关注 [微博](https://weibo.com/u/3423485724?is_all=1)。
 
 ## Vue 生态圈
 

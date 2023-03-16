@@ -35,7 +35,7 @@ After the download is complete, the downloaded .svg file is automatically import
 You can change the parent's `color` or change the color of `fill` directly.
 
 :::tip
-If you encounter an incorrect icon color, you can refer to this[issue](https://github.com/midfar/vue3-element-admin/issues/330)
+If you encounter an incorrect icon color, you can refer to this[issue](https://github.com/PanJiaChen/vue-element-admin/issues/330)
 :::
 
 ## Detailed articles

@@ -34,5 +34,5 @@ If you are downloading an icon from [iconfont](https://www.iconfont.cn/), rememb
 The icons used in this project are all 128\*128 size specifications.
 
 :::tip
-If you encounter the wrong color of the icon, you can refer to the [issue](https://github.com/midfar/vue3-element-admin/issues/330) for modification
+If you encounter the wrong color of the icon, you can refer to the [issue](https://github.com/PanJiaChen/vue-element-admin/issues/330) for modification
 :::

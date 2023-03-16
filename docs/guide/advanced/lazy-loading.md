@@ -25,7 +25,7 @@ When you have more and more pages in your project, using `lazy-loading` in the d
 module.exports = file => require('@/views/' + file + '.vue').default
 ```
 
-**Note here that this method only supports `vue-loader at least v13.0.0+`**[vue-element-admin/issues/231](https://github.com/midfar/vue3-element-admin/issues/231)
+**Note here that this method only supports `vue-loader at least v13.0.0+`**[vue-element-admin/issues/231](https://github.com/PanJiaChen/vue-element-admin/issues/231)
 
 Production：
 

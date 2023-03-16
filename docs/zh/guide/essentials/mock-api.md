@@ -21,7 +21,7 @@ Mock 数据是前端开发过程中必不可少的一环，是分离前后端开
 
 由于 [vue-element-admin](https://github.com/midfar/vue3-element-admin) 是一个纯前端个人项目，所有的数据都是用 [mockjs](https://github.com/nuysoft/Mock) 模拟生成。它的原理是: 拦截了所有的请求并代理到本地，然后进行数据模拟，所以你会发现 `network` 中没有发出任何的请求。
 
-但它的最大的问题是就是它的实现机制。它会重写浏览器的`XMLHttpRequest`对象，从而才能拦截所有请求，代理到本地。大部分情况下用起来还是蛮方便的，但就因为它重写了`XMLHttpRequest`对象，所以比如`progress`方法，或者一些底层依赖`XMLHttpRequest`的库都会和它发生不兼容，可以看一下我项目的[issues](https://github.com/midfar/vue3-element-admin/issues?utf8=%E2%9C%93&q=mock)，就知道多少人被坑了。
+但它的最大的问题是就是它的实现机制。它会重写浏览器的`XMLHttpRequest`对象，从而才能拦截所有请求，代理到本地。大部分情况下用起来还是蛮方便的，但就因为它重写了`XMLHttpRequest`对象，所以比如`progress`方法，或者一些底层依赖`XMLHttpRequest`的库都会和它发生不兼容，可以看一下我项目的[issues](https://github.com/PanJiaChen/vue-element-admin/issues?utf8=%E2%9C%93&q=mock)，就知道多少人被坑了。
 
 它还有一个问题是，因为是它本地模拟的数据，实际上不会走任何网络请求。所以本地调试起来很蛋疼，只能通过`console.log`来调试。就拿`vue-element-admin`来说，想搞清楚 `getInfo()`接口返回了什么数据，只能通过看源码或者手动 `Debug` 才能知道。
 

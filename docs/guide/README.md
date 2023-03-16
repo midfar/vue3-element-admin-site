@@ -24,7 +24,7 @@ Otherwise, you can use [vue-admin-template](https://github.com/PanJiaChen/vue-ad
 - Basic Template: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
 - Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
 - Typescript: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-- Others: [awesome-project](https://github.com/midfar/vue3-element-admin/issues/2312)
+- Others: [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
   :::
 
 <br/>
@@ -195,7 +195,7 @@ The repository of documentation is [vue-element-admin-site](https://github.com/m
 
 There may be some spelling or translation errors in the course of writing this document. It is welcome to point out by issue or pr. After all, English is not my mother tongue.
 
-[vue-element-admin](https://github.com/midfar/vue3-element-admin) is also continuing to iterate, summarize and summarize more features, and summarize the best practices of product templates/components/business scenarios in the middle and back office. This project is also very much looking forward to your participation and [feedback](https://github.com/midfar/vue3-element-admin/issues).
+[vue-element-admin](https://github.com/midfar/vue3-element-admin) is also continuing to iterate, summarize and summarize more features, and summarize the best practices of product templates/components/business scenarios in the middle and back office. This project is also very much looking forward to your participation and [feedback](https://github.com/PanJiaChen/vue-element-admin/issues).
 
 ## Donate
 

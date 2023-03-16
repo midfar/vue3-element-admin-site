@@ -69,9 +69,9 @@ npm install --registry=https://registry.npm.taobao.org
 
 请查看下面相关 issue：
 
-[issues/25](https://github.com/midfar/vue3-element-admin/issues/25)
+[issues/25](https://github.com/PanJiaChen/vue-element-admin/issues/25)
 
-[issues/24](https://github.com/midfar/vue3-element-admin/issues/24)
+[issues/24](https://github.com/PanJiaChen/vue-element-admin/issues/24)
 
 <br/>
 
@@ -85,7 +85,7 @@ npm install --registry=https://registry.npm.taobao.org
 
 将路由表配置存储在后端方案
 
-相关 issue：[issues/293](https://github.com/midfar/vue3-element-admin/issues/293)
+相关 issue：[issues/293](https://github.com/PanJiaChen/vue-element-admin/issues/293)
 <br/>
 
 ## 浏览器兼容性问题

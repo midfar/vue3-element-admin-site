@@ -22,7 +22,7 @@ var EcosystemNav = [
       },
       {
         text: 'awesome-project',
-        link: 'https://github.com/midfar/vue3-element-admin/issues/2312'
+        link: 'https://github.com/PanJiaChen/vue-element-admin/issues/2312'
       },
       {
         text: 'vue-countTo',
@@ -61,7 +61,7 @@ var EcosystemNav = [
       },
       {
         textZH: 'QQ群',
-        link: 'https://github.com/midfar/vue3-element-admin/issues/602',
+        link: 'https://github.com/PanJiaChen/vue-element-admin/issues/602',
         type: 'ZH'
       },
       {

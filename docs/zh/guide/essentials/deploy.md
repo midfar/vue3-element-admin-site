@@ -137,4 +137,4 @@ location / {
 </IfModule>
 ```
 
-相关[issue](https://github.com/midfar/vue3-element-admin/issues/370)
+相关[issue](https://github.com/PanJiaChen/vue-element-admin/issues/370)
