@@ -21,6 +21,7 @@ module.exports = {
     repo: 'midfar/vue3-element-admin',
     docsRepo: 'midfar/vue3-element-admin-site',
     docsDir: 'docs',
+    docsBranch: 'main',
     editLinks: true,
     sidebarDepth: 3,
     algolia: {
