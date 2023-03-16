@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "node bugfix/index.js && vuepress build docs",
     "precommit": "lint-staged",
     "lint": "prettier --write 'docs/**/*.md'"
   },
