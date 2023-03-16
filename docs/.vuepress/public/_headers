@@ -1,3 +1,2 @@
 /*.html
-  Access-Control-Allow-Origin: *
   Cache-Control: private, no-store, no-cache, must-revalidate, proxy-revalidate
