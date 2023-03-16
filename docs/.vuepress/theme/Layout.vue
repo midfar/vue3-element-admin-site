@@ -29,7 +29,7 @@
       <slot slot="bottom" name="page-bottom" />
     </Page>
 
-    <SWUpdatePopup :update-event="swUpdateEvent" />
+    <!-- <SWUpdatePopup :update-event="swUpdateEvent" /> -->
   </div>
 </template>
 
@@ -39,7 +39,7 @@ import nprogress from 'nprogress'
 import Navbar from '@default-theme/Navbar.vue'
 import Page from '@default-theme/Page.vue'
 import Sidebar from '@default-theme/Sidebar.vue'
-import SWUpdatePopup from '@default-theme/SWUpdatePopup.vue'
+// import SWUpdatePopup from '@default-theme/SWUpdatePopup.vue'
 import { resolveSidebarItems } from '@default-theme/util'
 import Swal from 'sweetalert2'
 import Home from './Home.vue'
@@ -50,8 +50,8 @@ export default {
     Home,
     Page,
     Sidebar,
-    Navbar,
-    SWUpdatePopup
+    Navbar
+    // SWUpdatePopup
   },
   data() {
     return {
