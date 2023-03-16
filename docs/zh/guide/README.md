@@ -4,20 +4,16 @@ pageClass: getting-started
 
 # 介绍
 
-[![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue)
-[![element-ui](https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg)](https://github.com/ElemeFE/element)
-[![Build Status](https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master)](https://travis-ci.org/PanJiaChen/vue-element-admin)
+[![vue](https://img.shields.io/badge/vue-3.2.45-brightgreen.svg)](https://github.com/vuejs/core)
+[![element-plus](https://img.shields.io/badge/element--plus-2.3.0-brightgreen.svg)](https://element-plus.midfar.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/midfar/vue3-element-admin/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg)](https://github.com/midfar/vue3-element-admin/releases)
-[![donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://panjiachen.gitee.io/vue-element-admin-site/zh/donate)
-[![GitHub stars](https://img.shields.io/github/stars/PanJiaChen/vue-element-admin.svg?style=social&label=Stars)](https://github.com/midfar/vue3-element-admin)
+[![GitHub release](https://img.shields.io/github/release/midfar/vue3-element-admin.svg)](https://github.com/midfar/vue3-element-admin/releases)
+[![GitHub stars](https://img.shields.io/github/stars/midfar/vue3-element-admin.svg?style=social&label=Stars)](https://github.com/midfar/vue3-element-admin)
 
-<!-- <CodingAD /> -->
-
-[vue-element-admin](http://panjiachen.github.io/vue-element-admin) 是一个后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)实现。它使用了最新的前端技术栈，内置了 i18 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。相信不管你的需求是什么，本项目都能帮助到你。
+[vue3-element-admin](https://github.com/midfar/vue3-element-admin) 是一个后台前端解决方案，它基于 [vue3](https://github.com/vuejs/core) 和 [element-plus](https://github.com/element-plus/element-plus)实现。它使用了最新的前端技术栈，内置了 i18 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。相信不管你的需求是什么，本项目都能帮助到你。
 
 :::tip 建议
-本项目的定位是后台集成方案，不太适合当基础模板来进行二次开发。因为本项目集成了很多你可能用不到的功能，会造成不少的代码冗余。如果你的项目不关注这方面的问题，也可以直接基于它进行二次开发。
+本项目参考了 vue2 版本的 vue-element-admin，如果有其他功能需求，可参考 vue2 旧版本。
 
 - 集成方案: [vue-element-admin](https://github.com/midfar/vue3-element-admin)
 - 基础模板: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
@@ -98,9 +94,9 @@ pageClass: getting-started
 
 ## 前序准备
 
-你需要在本地安装 [node](http://nodejs.org/) 和 [git](https://git-scm.com/)。本项目技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue](https://cn.vuejs.org/index.html)、[vuex](https://vuex.vuejs.org/zh-cn/)、[vue-router](https://router.vuejs.org/zh-cn/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-ui](https://github.com/ElemeFE/element)，所有的请求数据都使用[Mock.js](https://github.com/nuysoft/Mock)进行模拟，提前了解和学习这些知识会对使用本项目有很大的帮助。
+你需要在本地安装 [node](http://nodejs.org/) 和 [git](https://git-scm.com/)。本项目技术栈基于 [ES2015+](http://es6.ruanyifeng.com/)、[vue](https://cn.vuejs.org/index.html)、[pinia](https://pinia.vuejs.org/zh/)、[vue-router](https://router.vuejs.org/zh/) 、[vue-cli](https://github.com/vuejs/vue-cli) 、[axios](https://github.com/axios/axios) 和 [element-plus](https://github.com/element-plus/element-plus)，所有的请求数据都使用[Mock.js](https://github.com/nuysoft/Mock)进行模拟，提前了解和学习这些知识会对使用本项目有很大的帮助。
 
-同时配套一个系列的教程文章，如何从零构建一个完整的管理后台项目，建议大家先看完这些文章再来实践本项目。
+同时配套一个 vue2 系列的教程文章，如何从零构建一个完整的管理后台项目，建议大家先看完这些文章再来实践本项目。
 
 - [手摸手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
 - [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
@@ -119,12 +115,9 @@ pageClass: getting-started
 本项目已经为你生成了一个完整的开发框架，提供了涵盖中后台开发的各类功能和坑位，下面是整个项目的目录结构。
 
 ```bash
-├── build                      # 构建相关
 ├── mock                       # 项目mock 模拟数据
-├── plop-templates             # 基本模板
 ├── public                     # 静态资源
 │   │── favicon.ico            # favicon图标
-│   └── index.html             # html模板
 ├── src                        # 源代码
 │   ├── api                    # 所有请求
 │   ├── assets                 # 主题 字体等静态资源
@@ -141,15 +134,12 @@ pageClass: getting-started
 │   ├── vendor                 # 公用vendor
 │   ├── views                  # views 所有页面
 │   ├── App.vue                # 入口页面
-│   ├── main.js                # 入口文件 加载组件 初始化等
-│   └── permission.js          # 权限管理
-├── tests                      # 测试
+│   ├── main.ts                # 入口文件 加载组件 初始化等
+│   └── permission.ts          # 权限管理
 ├── .env.xxx                   # 环境变量配置
 ├── .eslintrc.js               # eslint 配置项
-├── .babelrc                   # babel-loader 配置
-├── .travis.yml                # 自动化CI配置
-├── vue.config.js              # vue-cli 配置
-├── postcss.config.js          # postcss 配置
+├── index.html                 # html模板
+├── vite.config.js             # vite 配置
 └── package.json               # package.json
 ```
 
@@ -177,37 +167,26 @@ npm run dev
 ::: tip
 强烈建议不要用直接使用 cnpm 安装，会有各种诡异的 bug，可以通过重新指定 registry 来解决 npm 安装速度慢的问题。若还是不行，可使用 [yarn](https://github.com/yarnpkg/yarn) 替代 `npm`。
 
-Windows 用户若安装不成功，很大概率是`node-sass`安装失败，[解决方案](https://github.com/PanJiaChen/vue-element-admin/issues/24)。
-
-另外因为 `node-sass` 是依赖 `python`环境的，如果你之前没有安装和配置过的话，需要自行查看一下相关安装教程。
 :::
 
 <br/>
 
-启动完成后会自动打开浏览器访问 [http://localhost:9527](http://localhost:9527)， 你看到下面的页面就代表操作成功了。
-
-![](https://panjiachen.gitee.io/gitee-cdn/vue-element-admin-site/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
+启动完成后会自动打开浏览器访问 [http://127.0.0.1:8001/](http://127.0.0.1:8001/)， 你看到下面的页面就代表操作成功了。
 
 接下来你可以修改代码进行业务开发了，本项目内建了典型业务模板、常用业务组件、模拟数据、HMR 实时预览、状态管理、国际化、全局路由等等各种实用的功能来辅助开发，你可以继续阅读和探索左侧的其它文档。
 
-<br/>
-
-::: tip 建议
-你可以把 `vue-element-admin`当做工具箱或者集成方案仓库，在 `vue-admin-template` 的基础上进行二次开发，想要什么功能或者组件就去 `vue-element-admin` 那里复制过来。
-:::
-
 ## Contribution
 
-本文档项目地址 [vue-element-admin-site](https://github.com/midfar/vue3-element-admin-site) 基于 [vuepress](https://github.com/vuejs/vuepress)开发。
+本文档项目地址 [vue3-element-admin-site](https://github.com/midfar/vue3-element-admin-site) 基于 [vuepress](https://github.com/vuejs/vuepress)开发。
 
 有任何修改和建议都可以该项目 pr 和 issue
 
-[vue-element-admin](https://github.com/midfar/vue3-element-admin) 还在持续迭代中，逐步沉淀和总结出更多功能和相应的实现代码，总结中后台产品模板/组件/业务场景的最佳实践。本项目也十分期待你的参与和[反馈](https://github.com/PanJiaChen/vue-element-admin/issues)。
+[vue3-element-admin](https://github.com/midfar/vue3-element-admin) 还在持续迭代中，逐步沉淀和总结出更多功能和相应的实现代码，总结中后台产品模板/组件/业务场景的最佳实践。本项目也十分期待你的参与和[反馈](https://github.com/midfar/vue3-element-admin/issues)。
 
 ## 捐赠
 
 如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 :heart:
-[Donate](/zh/donate/)
+wechart: midfar-sun
 
 ## Browsers Support
 

@@ -5,7 +5,7 @@ var EcosystemNav = [
     textZH: '项目',
     items: [
       {
-        text: 'vue-element-admin',
+        text: 'vue3-element-admin',
         link: 'https://github.com/midfar/vue3-element-admin'
       },
       {
@@ -45,28 +45,8 @@ var EcosystemNav = [
     textZH: '帮助',
     items: [
       {
-        text: 'Gitter',
-        textZH: 'Gitter讨论组',
-        link: 'https://gitter.im/vue-element-admin/discuss'
-      },
-      {
-        textZH: '作者Blog',
-        link: 'https://jianshiapp.com/circles/1209',
-        type: 'ZH'
-      },
-      {
         textZH: '常见问题',
         link: '/guide/other/faq.md',
-        type: 'ZH'
-      },
-      {
-        textZH: 'QQ群',
-        link: 'https://github.com/PanJiaChen/vue-element-admin/issues/602',
-        type: 'ZH'
-      },
-      {
-        textZH: '作者个人微博',
-        link: 'https://weibo.com/u/3423485724',
         type: 'ZH'
       },
       {
