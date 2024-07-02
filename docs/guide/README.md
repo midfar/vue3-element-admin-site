@@ -149,7 +149,7 @@ This project has built the following templates, and have built a scaffold based 
 │   └── permission.js          # permission authentication
 ├── tests                      # tests
 ├── .env.xxx                   # env variable configuration
-├── .eslintrc.js               # eslint config
+├── .eslintrc.cjs              # eslint config
 ├── .babelrc                   # babel config
 ├── .travis.yml                # automated CI configuration
 ├── vue.config.js              # vue-cli config
@@ -170,7 +170,7 @@ cd vue-element-admin
 npm install
 
 # develop
-npm run dev
+npm run dev:test
 ```
 
 <br/>

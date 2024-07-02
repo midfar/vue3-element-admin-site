@@ -4,19 +4,19 @@ Whether it's a multi-person collaboration or personal projects, code specificati
 
 ## Config
 
-All configuration files are in [.eslintrc.js](https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.js).
+All configuration files are in [.eslintrc.cjs](https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.cjs).
 The basic eslint rules of this project is based on the official eslint rules of vue [eslint-config-vue](https://github.com/vuejs/eslint-config-vue) but made minor changes. You can customize your configuration according to your needs.
 
 Such as: my personal or project team is accustomed to using two spaces, but you may feel that the four spaces are more pleasing, and you can make the following changes.
 
-Enter the project of `.eslintrc.js`, find `indent`,and then set it to `4` 。There are a variety of configuration information, see details [ESLint Document](https://eslint.org/docs/rules/)。
+Enter the project of `.eslintrc.cjs`, find `indent`,and then set it to `4` 。There are a variety of configuration information, see details [ESLint Document](https://eslint.org/docs/rules/)。
 
 After [v3.8.1](https://github.com/midfar/vue3-element-admin/releases/tag/v3.8.1), [eslint-plugin-vue](https://github.Com/vuejs/eslint-plugin-vue) has been added to better verify vue related code.
 
 By default, the most restrictive config `plugin:vue/recommended` is used to verify the code. If you think it is too strict, you can modify it yourself.
 
 ```js
-// https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.js
+// https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.cjs
 
 module.exports = {
   extends: ['plugin:vue/recommended', 'eslint:recommended']

@@ -14,7 +14,7 @@ git clone git@github.com:midfar/vue3-element-admin-site.git
 npm install
 
 # develop
-npm run dev
+npm run dev:test
 ```
 
 open http://localhost:8080/

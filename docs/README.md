@@ -30,5 +30,5 @@ git clone https://github.com/midfar/vue3-element-admin.git
 npm install
 
 # develop
-npm run dev
+npm run dev:test
 ```

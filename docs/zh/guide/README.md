@@ -137,9 +137,9 @@ pageClass: getting-started
 │   ├── main.ts                # 入口文件 加载组件 初始化等
 │   └── permission.ts          # 权限管理
 ├── .env.xxx                   # 环境变量配置
-├── .eslintrc.js               # eslint 配置项
+├── .eslintrc.cjs              # eslint 配置项
 ├── index.html                 # html模板
-├── vite.config.js             # vite 配置
+├── vite.config.ts             # vite 配置
 └── package.json               # package.json
 ```
 
@@ -159,7 +159,7 @@ npm install
 npm install --registry=https://registry.npmmirror.com
 
 # 本地开发 启动项目
-npm run dev
+npm run dev:test
 ```
 
 <br/>

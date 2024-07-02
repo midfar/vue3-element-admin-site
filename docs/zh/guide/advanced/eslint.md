@@ -4,18 +4,18 @@
 
 ## 配置项
 
-所有的配置文件都在 [.eslintrc.js](https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.js) 中。
+所有的配置文件都在 [.eslintrc.cjs](https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.cjs) 中。
 本项目基本规范是依托于 vue 官方的 eslint 规则 [eslint-config-vue](https://github.com/vuejs/eslint-config-vue) 做了少许的修改。大家可以按照自己的需求进行定制化配置。
 
 比如：我个人或者项目组习惯于使用两个空格，但你可能觉得四个空格更顺眼，你可以做如下修改。
-进入项目 `.eslintrc.js` 中，找到 `indent`，然后修改为 `4` 即可。 还有各种各样的配置信息，详情见 [ESLint 文档](https://eslint.org/docs/rules/)。
+进入项目 `.eslintrc.cjs` 中，找到 `indent`，然后修改为 `4` 即可。 还有各种各样的配置信息，详情见 [ESLint 文档](https://eslint.org/docs/rules/)。
 
 在 [v3.8.1](https://github.com/midfar/vue3-element-admin/releases/tag/v3.8.1)版本之后，增加了[eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)来更好的校验 vue 相关代码。
 
 默认情况下使用了最严格的`plugin:vue/recommended`来校验代码，若你觉得太严格可自行修改。
 
 ```js
-// https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.js
+// https://github.com/midfar/vue3-element-admin/blob/main/.eslintrc.cjs
 
 module.exports = {
   extends: ['plugin:vue/recommended', 'eslint:recommended']
@@ -59,7 +59,7 @@ module.exports = {
 }
 ```
 
-这样每次保存的时候就可以根据根目录下.eslintrc.js 你配置的 eslint 规则来检查和做一些简单的 fix。每个人和团队都有自己的代码规范，统一就好了，去打造一份属于自己的 eslint 规则上传到 npm 吧，如饿了么团队的 [config](https://www.npmjs.com/package/eslint-config-elemefe)，vue 的 [config](https://github.com/vuejs/eslint-config-vue)。
+这样每次保存的时候就可以根据根目录下.eslintrc.cjs 你配置的 eslint 规则来检查和做一些简单的 fix。每个人和团队都有自己的代码规范，统一就好了，去打造一份属于自己的 eslint 规则上传到 npm 吧，如饿了么团队的 [config](https://www.npmjs.com/package/eslint-config-elemefe)，vue 的 [config](https://github.com/vuejs/eslint-config-vue)。
 
 [vscode 插件和配置推荐](https://github.com/varHarrie/Dawn-Blossoms/issues/10)
 
