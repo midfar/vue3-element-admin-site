@@ -4,8 +4,8 @@ pageClass: getting-started
 
 # 介绍
 
-[![vue](https://img.shields.io/badge/vue-3.2.45-brightgreen.svg)](https://github.com/vuejs/core)
-[![element-plus](https://img.shields.io/badge/element--plus-2.3.0-brightgreen.svg)](https://element-plus.midfar.com/)
+[![vue](https://img.shields.io/badge/vue-3.4.30-brightgreen.svg)](https://github.com/vuejs/core)
+[![element-plus](https://img.shields.io/badge/element--plus-2.7.6-brightgreen.svg)](https://element-plus.midfar.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/midfar/vue3-element-admin/blob/main/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/midfar/vue3-element-admin.svg)](https://github.com/midfar/vue3-element-admin/releases)
 [![GitHub stars](https://img.shields.io/github/stars/midfar/vue3-element-admin.svg?style=social&label=Stars)](https://github.com/midfar/vue3-element-admin)
@@ -15,10 +15,10 @@ pageClass: getting-started
 :::tip 建议
 本项目参考了 vue2 版本的 vue-element-admin，如果有其他功能需求，可参考 vue2 旧版本。
 
-- 集成方案: [vue-element-admin](https://github.com/midfar/vue3-element-admin)
-- 基础模板: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- 桌面终端: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-- Typescript 版: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (鸣谢: [@Armour](https://github.com/Armour))
+- Vue3 集成方案: [vue3-element-admin](https://github.com/midfar/vue3-element-admin)
+- Vue2 基础模板: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
+- Vue2 桌面终端: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
+- Vue2 Typescript 版: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (鸣谢: [@Armour](https://github.com/Armour))
 - Others: [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
   :::
 
@@ -193,13 +193,9 @@ wechart: midfar-sun
 Modern browsers and Internet Explorer 10+.
 
 <!-- prettier-ignore -->
-| [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| [<img class="no-margin" src="https://gh.midfar.com/https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img class="no-margin" src="https://gh.midfar.com/https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img class="no-margin" src="https://gh.midfar.com/https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img class="no-margin" src="https://gh.midfar.com/https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
 | --------- | --------- | --------- | --------- |
 | IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
-
-## 其它
-
-群主 **[圈子](https://jianshiapp.com/circles/1209)** 群主会经常分享一些技术相关的东西，或者加入 [qq 群](https://github.com/PanJiaChen/vue-element-admin/issues/602) 或者关注 [微博](https://weibo.com/u/3423485724?is_all=1)。
 
 ## Vue 生态圈
 
