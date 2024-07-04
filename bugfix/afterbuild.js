@@ -28,3 +28,15 @@ fs.readFile('./sitemap.xml', 'utf8', (err, data) => {
     })
   }
 })
+
+fs.copyFile(
+  './baidu_verify_codeva-wu16TJnyYZ.html',
+  './docs/.vuepress/dist/baidu_verify_codeva-wu16TJnyYZ.html',
+  err => {
+    if (err) {
+      console.log('copy baidu_verify file err', err)
+    } else {
+      console.log('copy baidu_verify file success')
+    }
+  }
+)
