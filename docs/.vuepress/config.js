@@ -6,9 +6,18 @@ var { genNav, getComponentSidebar, deepClone } = utils
 
 module.exports = {
   title: 'vue3-element-admin',
-  description: 'A magical vue3 admin',
+  description:
+    'vue3-element-admin 是一个后台前端解决方案，它基于 vue3 和 element-plus 实现。它使用了最新的前端技术栈，内置了 i18 国际化解决方案，动态路由，权限验证，提炼了典型的业务模型，提供了丰富的功能组件，它可以帮助你快速搭建企业级中后台产品原型。相信不管你的需求是什么，本项目都能帮助到你。',
   base: '/',
   head: [
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content:
+          'admin,typescript,vue-router,admin-template,mockjs,vue-element-admin,vue3,vite,element-plus,vue3-admin,vue3-element-admin,pinia'
+      }
+    ],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-wu16TJnyYZ' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -188,11 +197,11 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      description: 'A magical vue admin'
+      description: 'A magical vue3 admin'
     },
     '/zh/': {
       lang: 'zh-CN',
-      description: 'A magical vue admin'
+      description: 'A magical vue3 admin'
     }
   },
   configureWebpack: {
