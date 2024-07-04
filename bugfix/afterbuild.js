@@ -28,3 +28,11 @@ fs.readFile('./sitemap.xml', 'utf8', (err, data) => {
     })
   }
 })
+
+fs.copyFile('./robots.txt', './docs/.vuepress/dist/robots.txt', err => {
+  if (err) {
+    console.log('copyFile robots.txt error', err)
+  } else {
+    console.log('copyFile robots.txt success')
+  }
+})
