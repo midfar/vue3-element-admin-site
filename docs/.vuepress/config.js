@@ -9,13 +9,8 @@ module.exports = {
   description: 'A magical vue3 admin',
   base: '/',
   head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: '/favicon.ico'
-      }
-    ]
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-wu16TJnyYZ' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
     repo: 'midfar/vue3-element-admin',
